@@ -1,0 +1,98 @@
+.active-users-container {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    background:#afd5f5ab;;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(12, 67, 99, 0.1);
+    padding: 23px;
+    text-align:left;
+    margin-top: 14px;
+  }
+  
+  /* Top Section: Summary & Pie Chart */
+  .top-section {
+    display:flex;
+    justify-content: space-between;
+    align-items:last baseline;
+    margin-bottom: 15px;
+  }
+  
+  .summary {
+    text-align: left;
+    flex: 1;
+  }
+  
+  .summary h6 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .summary h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* User Summary List */
+  .user-summary-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .user-summary-list li {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0;
+    padding: 5px;
+    background: #8cb8e2;
+    border-radius: 4px;
+  }
+  
+  /* Pie Chart */
+  .chart {
+    flex: 1;
+  }
+  
+  .chart canvas {
+    max-width: 180px !important; /* Medium-sized Pie Chart */
+    max-height: 180px !important;
+  }
+  
+  /* Authentication Section */
+  .auth-section {
+    padding-top: 10px;
+    border-top: 1px solid #a02b2b;
+    text-align: left;
+  }
+  
+  .auth-section h6 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Authentication List */
+  .auth-method-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px; /* Space between items */
+    flex-wrap: wrap; 
+    
+  }
+  
+  .auth-method-list li {
+    font-size: 0.9rem;
+    color: #555;
+    padding: 5px 10px;
+    background: #9ac5ee;
+    border-radius: 4px;
+    white-space: nowrap; 
+  }
+  

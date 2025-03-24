@@ -1,0 +1,112 @@
+/* Main Dashboard Layout */
+.d-flex {
+    display: flex;
+    min-height: 100vh;
+    background-color:#dae8f7;
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  
+  .sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+  }
+  
+  .sidebar a:hover {
+    background-color: #50677c;;/*#3e5469;*/
+  }
+  
+  /* Container for Main Dashboard Content */
+  .container-fluid {
+    margin-left: 250px;
+    padding: 20px;
+  }
+  
+  /* Header Styling */
+  .dashboard-header {
+    background-color:#35506b; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Grid Layout for Charts */
+  .row {
+    margin-bottom: 20px;
+  }
+  
+  .col-md-8, .col-md-4 {
+    padding: 15px;
+  }
+  
+  /* User Activity Chart Styling */
+  .user-activity-chart {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 12px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Active Users Pie Chart Styling */
+  .active-users-pie-chart {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Activity Log Styling */
+  .activity-log {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .activity-log h5 {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .container-fluid {
+      margin-left: 0;
+      padding: 15px;
+    }
+  
+    .row {
+      flex-direction: column;
+    }
+  
+    .col-md-8, .col-md-4 {
+      width: 100%;
+    }
+  
+    .sidebar {
+      position: relative;
+      width: 100%;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .sidebar a {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  

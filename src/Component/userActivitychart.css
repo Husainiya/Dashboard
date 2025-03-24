@@ -1,0 +1,28 @@
+
+.chart-container {
+  background-color: #afd5f5ab; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(3, 31, 49, 0.1); 
+  padding: 20px; 
+  margin: 20px 0; 
+  max-width: 670px; 
+  width: 100%; 
+  text-align: center; 
+  
+
+}
+
+.chart-container h5 {
+  font-size: 1.2rem;
+  color: #0f0101; 
+  margin-bottom: 20px;
+  font-weight: bold; 
+  
+}
+
+/* Ensure the chart itself is responsive */
+.chart-container canvas {
+  width: 100% !important; 
+  height: auto !important; 
+  
+}
