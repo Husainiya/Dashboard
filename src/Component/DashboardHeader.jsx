@@ -6,21 +6,21 @@ const DashboardHeader = () => {
   return (
     <Row className="dashboard-header mb-3">
       <Col>
-      <Card className="text-center" style={{ backgroundColor: '#afd5f5ab' }}>
+      <Card className="text-center" style={{ backgroundColor: '#afd5f5' }}>
           <h5>Daily Active Users</h5>
           <h3>1051</h3>
           <small>18 May 2025</small>
         </Card>
       </Col>
       <Col>
-      <Card className="text-center" style={{ backgroundColor: '#afd5f5ab' }}>
+      <Card className="text-center" style={{ backgroundColor: '#afd5f5' }}>
           <h5>Monthly Active Users</h5>
           <h3>1051</h3>
           <small>18 May 2025</small>
         </Card>
       </Col>
       <Col>
-      <Card className="text-center" style={{ backgroundColor: '#afd5f5ab' }}>
+      <Card className="text-center" style={{ backgroundColor: '#afd5f5' }}>
           <h5>Daily Time Per Active User</h5>
           <h3>1051</h3>
           <small>18 May 2025</small>
