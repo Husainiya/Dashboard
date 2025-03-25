@@ -30,7 +30,7 @@ Ensure you have the following installed:
 
    ```bash
    git clone [https://github.com/Husainiya/Dashboard.git]
-   cd Dashboard-Master
+   cd Dashboard-master 
    ```
 
 2. Install dependencies:
